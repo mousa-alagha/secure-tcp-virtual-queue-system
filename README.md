@@ -12,7 +12,7 @@ This project implements a secure and dependable virtual waiting queue system usi
 | SecurityUtil.java   | Implements secure communication utilities and authentication logic. |
 | StringUtil.java     | Utilities for string operations, possibly including hashing or formatting. |
 
-## 🚀 Features
+## Features
 
 - Multi-client **TCP architecture** with real-time session management.
 - **Secure communication** with authentication using `SecurityUtil`.
@@ -20,18 +20,18 @@ This project implements a secure and dependable virtual waiting queue system usi
 - Resumable sessions and reconnection support.
 - Simulation of real-life events like booking systems or ticket queues.
 
-## 🔐 Security & Reliability
+## Security & Reliability
 
 - Authentication support (potential for MFA).
 - Queue resilience: clients can reconnect without losing queue position if session is active.
 - Sessions auto-expire to ensure queue fluidity.
 - Communication integrity ensured using secure string utilities.
 
-## 📊 Performance & Evaluation
+## Performance & Evaluation
 
 The system was tested with multiple concurrent users and event types. Metrics such as waiting time, queue position, and failed logins were logged and analyzed to validate system dependability and scalability.
 
-## 🛠️ How to Run
+## How to Run
 
 1. Compile all `.java` files.
 2. Start the `Server.java`.
